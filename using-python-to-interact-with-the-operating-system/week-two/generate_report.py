@@ -9,6 +9,7 @@ def read_employees(csv_file_location):
     return employee_list
 
 employee_list = read_employees('/home/student-01-7ae3abd56cd7/data/employees.csv')
+print(employee_list)
 
 def process_data(employee_list):
     department_list = []
